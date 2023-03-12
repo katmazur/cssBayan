@@ -5,76 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <title>CSS Bayan</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <style>
-            .container {
-                margin: 10px auto;
-            }
-            .row {
-                cursor: pointer;
-            }
-            .clicker {
-                width: 100%;
-                background-color: #787474;
-                outline: none;
-                cursor: pointer;
-                color: #fff;
-                display: block;
-            }
-            .hidden-div {
-                display: none;
-                height: 200px;
-                text-align: center;
-            }
-            .hidden-div img {
-                width: 75px;
-                height: 75px;
-            }
-            .toggle-icon {
-                float: right;
-                margin-right: 10px;
-                visibility: hidden;
-            }
-            .toggle-icon:after {
-                content: "+";
-            }
-            .row:hover .toggle-icon {
-                visibility: visible;
-            }
-            .hidden-checkbox {
-                margin-left: -99999px;
-            }
-
-            .clicker:has(> .hidden-checkbox:checked) + div,
-            .row:hover .hidden-div {
-                display: block;
-            }
-            .clicker:has(> .hidden-checkbox:checked) + div img,
-            .row:hover .hidden-div img {
-                width: 175px;
-                height: 175px;
-            }
-            .clicker:has(> .hidden-checkbox:checked) .toggle-icon:after {
-                content: "-";
-            }
-            @media screen and (min-width: 320px) {
-                .container {
-                    width: 300px;
-                    font-size: 14px;
-                }
-            }
-            @media screen and (min-width: 820px) {
-                .container {
-                    width: 800px;
-                    font-size: 17px;
-                }
-            }
-            @media screen and (min-width: 1720px) {
-                .container {
-                    width: 1200px;
-                    font-size: 20px;
-                }
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" media="screen" href="./main.css" />
     </head>
     <body>
         <div class="container">
