@@ -20,6 +20,17 @@
                 color: #fff;
                 display: block;
             }
+            .toggle-icon {
+                float: right;
+                margin-right: 10px;
+                visibility: hidden;
+            }
+            .toggle-icon:after {
+                content: "+";
+            }
+            .row:hover .toggle-icon {
+                visibility: visible;
+            }
             .hidden-div {
                 text-align: center;
             }
@@ -52,6 +63,7 @@
             <div class="row">
                 <label class="clicker">
                     Click me 1
+                    <span class="toggle-icon"></span>
                     <input class="hidden-checkbox" type="radio" />
                 </label>
                 <div class="hidden-div"><img src="./29286.jpeg" alt="" /></div>
@@ -59,6 +71,7 @@
             <div class="row">
                 <label class="clicker">
                     Click me 2
+                    <span class="toggle-icon"></span>
                     <input class="hidden-checkbox" type="radio" />
                 </label>
                 <div class="hidden-div"><img src="./29286.jpeg" alt="" /></div>
@@ -66,6 +79,7 @@
             <div class="row">
                 <label class="clicker">
                     Click me 3
+                    <span class="toggle-icon"></span>
                     <input class="hidden-checkbox" type="radio" />
                 </label>
                 <div class="hidden-div"><img src="./29286.jpeg" alt="" /></div>
@@ -73,6 +87,7 @@
             <div class="row">
                 <label class="clicker">
                     Click me 4
+                    <span class="toggle-icon"></span>
                     <input class="hidden-checkbox" type="radio" />
                 </label>
                 <div class="hidden-div"><img src="./29286.jpeg" alt="" /></div>
