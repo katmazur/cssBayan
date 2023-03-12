@@ -9,6 +9,23 @@
             .container {
                 margin: 10px auto;
             }
+            .row {
+                cursor: pointer;
+            }
+            .clicker {
+                width: 100%;
+                background-color: #787474;
+                outline: none;
+                cursor: pointer;
+                color: #fff;
+                display: block;
+            }
+            .hidden-div {
+                text-align: center;
+            }
+            .hidden-checkbox {
+                margin-left: -99999px;
+            }
             @media screen and (min-width: 320px) {
                 .container {
                     width: 300px;
@@ -32,6 +49,34 @@
     <body>
         <div class="container">
             <h1>CSS Bayan</h1>
+            <div class="row">
+                <label class="clicker">
+                    Click me 1
+                    <input class="hidden-checkbox" type="radio" />
+                </label>
+                <div class="hidden-div"><img src="./29286.jpeg" alt="" /></div>
+            </div>
+            <div class="row">
+                <label class="clicker">
+                    Click me 2
+                    <input class="hidden-checkbox" type="radio" />
+                </label>
+                <div class="hidden-div"><img src="./29286.jpeg" alt="" /></div>
+            </div>
+            <div class="row">
+                <label class="clicker">
+                    Click me 3
+                    <input class="hidden-checkbox" type="radio" />
+                </label>
+                <div class="hidden-div"><img src="./29286.jpeg" alt="" /></div>
+            </div>
+            <div class="row">
+                <label class="clicker">
+                    Click me 4
+                    <input class="hidden-checkbox" type="radio" />
+                </label>
+                <div class="hidden-div"><img src="./29286.jpeg" alt="" /></div>
+            </div>
         </div>
     </body>
 </html>
